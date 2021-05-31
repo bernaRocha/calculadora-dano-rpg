@@ -1,0 +1,111 @@
+#principal{
+  background-color: rgb(216, 216, 216);
+  border-radius: 2%;
+  border-left: 30;
+  border-right: 30;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 1px solid black;
+  
+}
+
+#principal, p{
+  text-align: center;
+  font-weight: bold;
+}
+
+#titulo{
+  padding-top: 3px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/*  Frase: Selecione o personagem*/
+#selecione{
+  padding-top: 5px;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#elemento-personagem{
+  padding-top: 5px;
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: flex-end;
+  
+
+}
+
+#selecao-de-arma{
+  padding-top: 5px;
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#armas{
+  padding-top: 5px;
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+#botao{
+  margin-top: 10px;
+  cursor: pointer;
+  padding: 15px 32px;
+  margin-bottom: 20px;
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+#botao:hover{
+  background-color: rgb(218, 15, 15); 
+  font-size: 26px;
+  color: black;
+  transform: rotateX(15);
+  text-decoration: underline;
+  font-style: uppercase;
+  opacity: 0.9;
+
+
+}
+
+
+.selecionado {
+  border: 2px solid blue;
+  padding: 10px;
+  border-radius: 18px;
+  transition: 0.5s;
+  text-transform: uppercase;
+  
+  
+}
+
+.selecionado:hover{
+  cursor: pointer;
+  margin-top: -2px;
+  font-stretch: expanded;
+  background-color: lightblue;
+  
+
+   
+
+}
+
+/*    transform: rotate(20deg);  */
+

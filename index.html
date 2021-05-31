@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Calculadora de dano - Aula03</title>
+        <link rel="stylesheet" type='text/css' href="style.css"/> 
+        <script type="text/javascript" src="javascript.js"></script>
+    </head>
+
+    <body onload="iniciar()">
+        <div id="principal">
+            <div id="titulo">
+                <h1>Calculadora de Dano</h1>
+            </div>
+
+            <div id="selecione">
+                <b><p>Selecione o personagem</p></b>
+            </div>
+
+            <div id="elemento-personagem">
+                
+                <div id="orc" class="personagem">
+                    <img src="img/orc.png" alt="orc" width="200px">
+                    <strong><p>Orc</p></strong>
+                </div>
+
+                <div id="goblin" class="personagem">
+                    <img src="img/goblin.png" alt="goblin" width="200">
+                    <strong><p>Goblin</p></strong>
+                </div>
+
+                <div id="feiticeira" class="personagem">
+                    <img src="img/feiticeira.png" alt="feiticeira" width="180">
+                    <strong><p>Feiticeira</p></strong>
+                </div>
+            </div>
+
+            <div id="selecao-de-arma" >
+                <strong><p>Selecione uma arma</p></strong>
+            </div>
+
+            <div id="armas">
+                
+                <div id="soco" class="personagem">
+                    <img src="img/soco.png" alt="soco" width="200">
+                    <strong><p>Soco</p></strong>
+                </div>   
+               
+                <div id="arco" class="personagem">
+                    <img src="img/arco.png" alt="soco" width="200">
+                    <strong><p>Arco</p></strong>
+                </div>   
+
+                <div id="espada" class="personagem">
+                    <img src="img/espada.png" alt="soco" width="200">
+                    <strong><p>Espada</p></strong>
+                </div>
+                      
+            </div>
+
+            <div>
+                <button id="botao" type="button" value="calcularDano" class="button">Calcular dano</button>
+            </div>
+
+        </div>
+    </body>
+</html>
